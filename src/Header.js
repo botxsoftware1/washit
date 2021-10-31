@@ -10,7 +10,7 @@ const Header = () => {
         <div className="container small-header">
           <div className="row">
             <div className="col-lg-4 p-5 mt-5">
-              <h4 className="display-5  mt-4 text-center">Login</h4>
+              <h4 className="display-3  mt-4 text-center">Login</h4>
               <Login />
             </div>
             <div className="col-lg-8">
