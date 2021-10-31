@@ -612,7 +612,6 @@
   top: 100px;
   bottom: 100px;
   right: -100px;
-
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(30px);
   /* Note: backdrop-filter has minimal browser support */
@@ -644,7 +643,7 @@ input {
 }
 
 .navbar a {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -660,3 +659,8 @@ input {
   }
 }
 /* RISHAV END */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+  .small-header {
+    height: 40vh;
+  }
+} /* applied to lg also */
